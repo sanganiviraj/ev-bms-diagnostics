@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "digital-ev-doctor",
-    "slug": "digital-ev-doctor",
+    "name": "EV BMS Diagnostics",
+    "slug": "ev-bms-diagnostics",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "digitalevdoctor",
+    "scheme": "evbmsdiag",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.digitalevdoctor",
+      "bundleIdentifier": "com.anonymous.evbmsdiagnostics",
       "infoPlist": {
-        "NSBluetoothAlwaysUsageDescription": "Allow Digital EV Doctor to connect to your OBD-II Bluetooth adapter.",
-        "NSBluetoothPeripheralUsageDescription": "Allow Digital EV Doctor to connect to your OBD-II Bluetooth adapter."
+        "NSBluetoothAlwaysUsageDescription": "Allow EV BMS Diagnostics to connect to your OBD-II Bluetooth adapter.",
+        "NSBluetoothPeripheralUsageDescription": "Allow EV BMS Diagnostics to connect to your OBD-II Bluetooth adapter."
       }
     },
     "android": {
@@ -23,7 +23,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.digitalevdoctor",
+      "package": "com.anonymous.evbmsdiagnostics",
       "permissions": [
         "android.permission.BLUETOOTH",
         "android.permission.BLUETOOTH_ADMIN",

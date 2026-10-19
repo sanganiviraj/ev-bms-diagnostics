@@ -1,4 +1,4 @@
-# Digital EV Doctor — EV BMS Diagnostic & Telematics Suite
+# EV BMS Diagnostics — High-Voltage Diagnostic & Telematics Suite
 
 A cross-platform mobile application for High-Voltage (HV) Battery diagnostics, real-time CAN bus telemetry, and Battery Management System (BMS) service routines built on **ISO 14229-1 (Unified Diagnostic Services - UDS)** and **ISO 15765-4 (CAN)** standards.
 

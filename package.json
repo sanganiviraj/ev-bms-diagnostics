@@ -1,5 +1,5 @@
 {
-  "name": "digital-ev-doctor",
+  "name": "ev-bms-diagnostics",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "dependencies": {

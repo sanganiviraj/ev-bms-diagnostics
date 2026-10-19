@@ -14,7 +14,7 @@ export default function ModalScreen() {
         </View>
       </View>
 
-      <Text style={styles.title}>Digital EV Doctor</Text>
+      <Text style={styles.title}>EV BMS Diagnostics</Text>
       <Text style={styles.subtitle}>Production High-Voltage Diagnostic & Telematics Architecture</Text>
 
       {/* Real Car vs Simulation Explainer */}
