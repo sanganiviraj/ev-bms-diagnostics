@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Internal client docs
+CLIENT_TESTING_AND_ARCHITECTURE_GUIDE.md

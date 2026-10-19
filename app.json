@@ -8,7 +8,12 @@
     "scheme": "digitalevdoctor",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.digitalevdoctor",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "Allow Digital EV Doctor to connect to your OBD-II Bluetooth adapter.",
+        "NSBluetoothPeripheralUsageDescription": "Allow Digital EV Doctor to connect to your OBD-II Bluetooth adapter."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -17,7 +22,15 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.digitalevdoctor",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +45,14 @@
           "image": "./assets/images/splash-icon.png",
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": false,
+          "modes": ["peripheral", "central"],
+          "bluetoothAlwaysPermission": "Allow Digital EV Doctor to connect to your OBD-II Bluetooth adapter."
         }
       ]
     ],
